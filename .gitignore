@@ -1,0 +1,17 @@
+
+# WHMCS configuration and secrets
+configuration.php
+.env
+.env.*
+!.env.example
+
+# Runtime and generated files
+/templates_c/
+/attachments/
+/downloads/
+/crons/cron.log
+
+# Local development
+.DS_Store
+Thumbs.db
+*.log
